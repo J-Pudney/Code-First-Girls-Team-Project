@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--below is bootstrap config-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="_css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:ital,wght@0,500;1,400;1,700&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="_js/javascript.js"></script>
+  <link rel="stylesheet" type="text/css" href="_css/styles.css">
+  
+  
+  <title>Home</title>
+</head>
+
+<body>
+  
+  <div class="custom-padding">
+    <nav>
+      <div class="header"> Must Eat</div>
+  
+      <ul class="menu-area">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+
+  <!-- begin main code here Done by Jenny-->
+ 
+  <main>
+    <div class= "page-wrapper"></div>
+  
+    <div id="top">
+      <div><img src="_images/chinese.jpeg" /></div>
+      <div> <h1>Hungry?</h1>
+      <h2>Discover the best takeaways in your local area</h2> 
+      <h4>Use our map to find out our top recommendations for your region and to be linked to their website!</h4> 
+      <br class="breakButton">
+      <form action="map.html" id="outerbutton">
+        <input type="submit" value="Go to Map" id="homeButton"/>
+      </form> </div>
+      <br clear="right">
+    </div>
+  
+  <br>
+    <hr id="line" class="solid">
+  <br clear="right">
+    <div  id="bottom">
+      <h2>Need Some Inspiration?</h2>
+      <h4>Here are the top picks from around the country</h4>
+      <br>
+      <div class= "container">
+        <div class="row">
+          <div class="col-sm-12">
+    
+             <div id="my-slider" class="carousel slide" data-ride="carousel">
+              
+              <!-- indicators dot nav--> 
+  
+              <ol class="carousel-indicators">
+                <li data-target="#my-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#my-slider" data-slide-to="1"></li>
+                <li data-target="#my-slider" data-slide-to="2"></li>
+              </ol>
+    
+              <!-- wrapper for slides-->
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <a href="./London.html"><img src="_images/london2(chop) 2.jpeg" alt="thai coconut curry soup" class="d-block w-100">
+                  <div class="carousel-caption">
+                    <h5>London's Best Takeaways</h5>
+                  </div></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="./northwest.html"><img src="_images/nw2 2.jpeg" class="d-block w-100" alt="chinese">
+                  <div class="carousel-caption">
+                    <h5>The Best Pizza in Manchester</h5>
+                  </div></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="./scotland.html"><img src="_images/scot 4 (Cafe) 3.jpeg" alt="man vs roast Leeds" class="d-block w-100">
+                  <div class="carousel-caption">
+                    <h5>Get fancy Mac 'n' Cheese at Your Door</h5>
+                  </div></a>
+                </div>
+              </div>
+  
+              <!-- controls or next and prev buttons -->
+                <a class= "carousel-control-prev" href="#my-slider" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>  <!--aria-hidden="true"-->
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class= "carousel-control-next" href="#my-slider" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+                  <span class="sr-only">Next</span>
+                </a>
+             </div>
+    
+          </div>
+        </div>
+      </div>
+  
+    
+    </div> 
+    <br>
+    <hr id="line" class="solid"> 
+    <br>
+    <br>
+    </main>
+
+
+  <!-- End main code--> 
+
+  <!-- footer DO NOT EDIT --> 
+<nav>
+<div class= "footer">
+    <div class= "footer-content">
+      <div class= "footer-section about">
+        <h1 class= "logo-text"><span>Must</span>Eat</h1>
+        <p>
+          No1 spot to find the best Local restaurants all over the UK.
+          <br>
+          Helping you to make great restaurant decision where ever you are. 
+        </p>
+      </div>
+      <div class= "footer-section toplocation">
+        <h2>Top locations</h2>
+        <ul>
+            <a href="London.html">
+              <li>Central London</li>
+            </a>
+            <a href="northwest.html">
+              <li>Manchester</li>
+            </a>
+            <a href="northwest.html">
+              <li>Liverpool</li>
+            </a>
+            <a href="westmidlands.html">
+              <li>Birmingham</li>
+            </a>
+        </ul>
+      </div>
+    </div>
+    <div class= "footer-bottom">
+      musteat.com |  &copy; Must Eat 2020
+    </div>
+</div>
+
+
+</nav> 
+  <!-- Bootstrap at bottom -->
+      
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
